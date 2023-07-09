@@ -2,7 +2,7 @@
     <div style="width: 100vw; height: 100vh; overflow: hidden; display: flex">
         <div style="flex: 1; ">
             <el-image style="width: 100%; height: 100%;" fit="cover"
-                      src="https://image.itbaima.net/images/90/image-20230419236235204.jpeg"/>
+                      src="https://image.itbaima.net/images/90/image-20230702146594853.jpeg"/>
         </div>
         <div class="welcome-title">
 

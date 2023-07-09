@@ -1,17 +1,11 @@
 <script setup>
-import {get} from "@/net";
 import {useUserStore} from "@/stores";
-import router from "@/router";
 
 const userStore = useUserStore()
+const user = localStorage.getItem('user')
 
-if (userStore.auth.user == null) {
-    get('/api/user/me', (message) => {
-        userStore.auth.user = message
-        router.push('/index')
-    }, () => {
-        userStore.auth.user = null
-    })
+if (user != null) {
+    userStore.auth.user = JSON.parse(user)
 }
 
 </script>
