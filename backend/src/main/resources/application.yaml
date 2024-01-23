@@ -3,15 +3,15 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/template?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: 193777
+    password: 123456
 
   mail:
-    host: smtp.qq.com
-    username: 1016620694@qq.com
-    password: jvbwvjvoheflbccd
+    host: smtp
+    username: your@eamil
+    password: email=smtp=pwd
     port: 465
     properties:
-      from: 1016620694@qq.com
+      from: your@eamil
       mail:
         smtp:
           socketFactory:
